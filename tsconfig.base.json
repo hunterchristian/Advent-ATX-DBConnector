@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2017",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "incremental": true,
+  },
+  "exclude": ["packages/**/tests/**", "packages/**/dist/**"],
+  "references": [
+    {
+      "path": "./app"
+    },
+		{
+      "path": "./api"
+    },
+    {
+      "path": "./libs/*"
+    },
+    {
+      "path": "./lambdas/*"
+    }
+  ]
+}
