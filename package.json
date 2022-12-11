@@ -3,8 +3,8 @@
   "name": "Advent-ATX-DBConnector",
   "packageManager": "yarn@4.0.0-rc.15",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": ".build/src/index.js",
+  "types": ".build/src/index.d.js",
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
